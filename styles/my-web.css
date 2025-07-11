@@ -35,9 +35,13 @@ nav{
     color: white;
     padding: 12px 36px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 16px;
     align-items: center;
-    border: 0px;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #7c79a1; /* New color when hovered */
 }
 .banner {
    display: flex;
@@ -48,11 +52,150 @@ nav{
   flex-direction: column;
 }
 
-/* Header-Background  */
+/* Header-Background */
 .header{
     background-image: url('../Assets/Hero-bg.png');
     background-size: cover;          
-    /* background-repeat: no-repeat;      */
+    /* background-repeat: no-repeat;*/
     background-position: center; 
      height: auto;
+}
+.preview-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+  background-color: #eaf4ff; /* light blue background */
+  border-radius: 20px;
+  gap: 30px;
+}
+.preview-text {
+  max-width: 600px;
+}
+
+.preview-text h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.preview-text p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.preview-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+}
+.stats-section {
+  background-color: #f5f7ff;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.stats-box {
+  background-color: #eaefff;
+  padding: 50px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+}
+
+.stats-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #1e1e1e;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.stat h1 {
+  font-size: 38px;
+  color: #4E47FF;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.stat p {
+  font-size: 16px;
+  color: #666;
+}
+
+.feedback-section {
+  background-color: #f5f7ff;
+  padding: 80px 20px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.feedback-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #1e1e1e;
+}
+
+.feedback-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feedback-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 280px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.star-icon {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.feedback-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1e1e1e;
+}
+
+.feedback-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.star-row {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.star-icon {
+  width: 18px;
+  height: 18px;
 }
